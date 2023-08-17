@@ -12,7 +12,7 @@ const Billing = () => {
             type="text"
             id="billFirstName"
             name="billFirstName"
-            placeholder="Fnu"
+            placeholder="Enter FirstName"
             pattern="([A-Z])[\w+.]{1,}"
             value={data.billFirstName}
             onChange={handleChange}
@@ -24,7 +24,7 @@ const Billing = () => {
             type="text"
             id="billLastName"
             name="billLastName"
-            placeholder="Lnu"
+            placeholder="Enter LastName"
             pattern="([A-Z])[\w+.]{1,}"
             value={data.billLastName}
             onChange={handleChange}
@@ -37,7 +37,7 @@ const Billing = () => {
         type="text"
         id="billAddress1"
         name="billAddress1"
-        placeholder="555 Wallaby Way"
+        placeholder="Enter Street Address"
         pattern="[\w\d\s.#]{2,}"
         value={data.billAddress1}
         onChange={handleChange}
@@ -50,7 +50,7 @@ const Billing = () => {
         type="text"
         id="billAddress2"
         name="billAddress2"
-        placeholder="Apt. 2"
+        placeholder="Apartment Number"
         pattern="[\w\d\s.#]{2,}"
         value={data.billAddress2}
         onChange={handleChange}
@@ -61,7 +61,7 @@ const Billing = () => {
         type="text"
         id="billCity"
         name="billCity"
-        placeholder="New York"
+        placeholder="Enter city Name"
         pattern="([A-Z])[\w\s.]{1,}"
         value={data.billCity}
         onChange={handleChange}

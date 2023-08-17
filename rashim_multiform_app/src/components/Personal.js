@@ -11,7 +11,7 @@ const Personal = () => {
           type="text"
           id="personalfirstName"
           name="personalfirstName"
-          placeholder="FirstName"
+          placeholder="Enter your FirstName"
           pattern="([A-Za-z])[\w+.]{1,}"
           value={data.personalfirstName}
           onChange={handleChange}
@@ -23,7 +23,7 @@ const Personal = () => {
           type="text"
           id="personallastName"
           name="personallastName"
-          placeholder="LastName"
+          placeholder="Enter your LastName"
           pattern="([A-Za-z])[\w+.]{1,}"
           value={data.personallastName}
           onChange={handleChange}
